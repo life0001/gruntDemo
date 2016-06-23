@@ -18,6 +18,17 @@ module.exports = function (grunt) {
                     'dest/libs.min.js': ['src/jquery.1.9.1.js', 'src/circle_progress.js', 'src/udd_ul_paid.js'] //压缩后合并这几个文件，有先后顺序
                 }
             }
+        },
+        cssmin: {  //css文件压缩与合并
+          compress: {
+            files: {
+              'dest/1.min.css': //生成后的压缩文件名和路径
+            [
+              "1.css",  //把要压缩或则合并的文件都放这里
+              "a.css"
+            ]
+            }
+          }
         }
     });
     // 加载提供"uglify"任务的插件
