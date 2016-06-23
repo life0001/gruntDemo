@@ -4,7 +4,7 @@ grunt实例
 怎么运行？
 在dos环境下进入grunt目录，然后输入grunt命令
 
-Gruntfile.js //配置文件, 需要哪些文件进行压缩、合并、语法检查……   压缩、合并或语法检查功能（模块），这些Node模块在package.json内必须要有。
+Gruntfile.js //配置文件, 需要哪些文件进行压缩、合并、语法检查……   压缩、合并或语法检查功能（模块），这些Node模块在package.json文件内必须要有。
 
 下载Node模块
 在dos下输入命令npm install
